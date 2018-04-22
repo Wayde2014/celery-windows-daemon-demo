@@ -12,6 +12,7 @@ from log_util import LogUtil
 conf = {
     'filename': 'test.log',
     'level': 'DEBUG',
+    'multiprocess': True,
 }
 LogUtil(**conf)
 
